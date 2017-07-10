@@ -1,0 +1,59 @@
+/*CSS Style Sheet*/
+
+/*Import External Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: beige;
+}
+
+/*Header*/
+#headerWrapper{
+	width: 100%;
+	text-align:center;
+	background:silver;
+	max-height: 500px;
+	background-image: url(images/bg2.png);
+	background-repeat: no-repeat;
+	height: 600px;
+	overflow-x: hidden; background-size:cover;
+	
+}
+
+/*Main Title Text*/
+#siteTitleContainer{
+	margin-top: 25px !important;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#siteTitle{
+	font-size: 70px;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	margin: 0 auto;
+}
+
+#nav{
+	background:beige;
+	height: 40px;
+}
+
+#mainContentWrapper{
+	width: 80%;
+	margin: 0 auto;
+	min-height:500px;
+	background: white;
+	
+}
+
+#footerWrapper{
+	min-height:300px;
+	background: silver;
+}
